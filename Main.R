@@ -43,13 +43,17 @@ zapytanie_1 <- function(Posts_xml){
   })
   
   y <- do.call(rbind, ans2)
+  
+  y <- split(y, by = c("Tags"))
   #ans1 <- ans[,
   #            .(best_tag = max(Tags_number)),
   #            by = c("CreationDate")]
   #TODO Czy skupiamy si? na wyselekcjonowaniu miesi?cy
 }
 x <- zapytanie_1(arqade.Posts)
-#plot(x$CreationDate, x$Tags_number)
+
+
+plot(seq(1,length(x$CreationDate)), x$Tags_number, xlabel = x$CreationDate)
 
 # 25 userów z największą ilością użytych tagów. 
 tags_users_comparision <- function(Posts_xml, Users_xml){
