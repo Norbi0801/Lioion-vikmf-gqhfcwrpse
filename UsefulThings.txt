@@ -1,0 +1,11 @@
+Strony: https://stackexchange.com/sites
+Dane: https://archive.org/download/stackexchange
+Github Desktop: https://desktop.github.com/
+
+# Load the packages required to read XML files.
+library("XML")
+library("methods")
+
+# Convert the input xml file to a data frame.
+xmldataframe <- xmlToDataFrame("input.xml")
+print(xmldataframe)
