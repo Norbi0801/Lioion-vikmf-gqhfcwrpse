@@ -54,7 +54,7 @@ tags_users_comparision <- function(PostsDT, UsersDT){
   DT <- count(DT, OwnerUserId, wt = n_distinct(Tags), name = "Number_of_Tags")
   
   ans <- merge(UsersDT, DT, by.x = "Id", by.y = "OwnerUserId")
-  ans[, Id := NULL][Difference >= 1000, ][order(Number_of_Tags, decreasing = TRUE)][1:25]
+  ans[, Id := NULL][Difference >= 1000, ][order(Number_of_Tags, decreasing = TRUE)][1:15]
 }
 
 #######################################
