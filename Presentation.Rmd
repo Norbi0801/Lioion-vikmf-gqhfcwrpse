@@ -1,0 +1,25 @@
+---
+title: "Praca projektowa nr 3"
+author: 
+- Norbert Olkowski
+- Jakub Muszynski
+- Dawid Poławski
+date: "31 05 2021"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, warning = FALSE, message = FALSE)
+
+source("Main.R")
+library(readr)
+library(sqldf)
+library(dplyr)
+library(data.table)
+library(tibble)
+
+```
+
+## Zapytanie 1 ##
+
+
