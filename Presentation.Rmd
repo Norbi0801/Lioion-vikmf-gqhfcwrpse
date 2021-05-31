@@ -6,6 +6,9 @@ author:
 - Dawid Poławski
 date: "31 05 2021"
 output: beamer_presentation
+theme: "Warsaw"
+colortheme: "Whale"
+fonttheme: "structurebold"
 ---
 
 ```{r setup, include=FALSE}
@@ -15,11 +18,11 @@ source("Main.R")
 library(readr)
 ```
 
-\begin{frame}
-\tableofcontents
-\end{frame}
 
+\part{Hej}
 ## Zapytanie 1 ##
-Jak zmieniała się popularność gier (tagów) na przestrzeni danej jednostki czasu (miesiąc)?
+###Jak zmieniała się popularność gier (tagów) na przestrzeni danej jednostki czasu (miesiąc)?###
+
+
 
 

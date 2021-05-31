@@ -1,33 +1,33 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  31 MAY 2021 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.31)  31 MAY 2021 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Presentation.tex
 (./Presentation.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-
+L3 programming layer <2021-05-27> (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-
 dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2021/02/09 v3.61 A class for typesetting presentations
+Document Class: beamer 2021/05/26 v3.63 A class for typesetting presentations
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasemo
 des.sty
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.s
 ty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count179
+\etb@tempcnta=\count181
 )
 \beamer@tempbox=\box47
-\beamer@tempcount=\count180
-\c@beamerpauses=\count181
+\beamer@tempcount=\count182
+\c@beamerpauses=\count183
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasede
 code.sty
-\beamer@slideinframe=\count182
-\beamer@minimum=\count183
+\beamer@slideinframe=\count184
+\beamer@minimum=\count185
 \beamer@decode@box=\box48
 )
 \beamer@commentbox=\box49
-\beamer@modecount=\count184
+\beamer@modecount=\count186
 ) (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
@@ -56,25 +56,26 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@sectionbox=\box53
 \beamer@logobox=\box54
 \beamer@linebox=\box55
-\beamer@sectioncount=\count185
-\beamer@subsubsectionmax=\count186
-\beamer@subsectionmax=\count187
-\beamer@sectionmax=\count188
-\beamer@totalheads=\count189
-\beamer@headcounter=\count190
-\beamer@partstartpage=\count191
-\beamer@sectionstartpage=\count192
-\beamer@subsectionstartpage=\count193
-\beamer@animationtempa=\count194
-\beamer@animationtempb=\count195
-\beamer@xpos=\count196
-\beamer@ypos=\count197
-\beamer@ypos@offset=\count198
-\beamer@showpartnumber=\count199
-\beamer@currentsubsection=\count266
-\beamer@coveringdepth=\count267
-\beamer@sectionadjust=\count268
-\beamer@tocsectionnumber=\count269
+\beamer@sectioncount=\count187
+\beamer@subsubsectionmax=\count188
+\beamer@subsectionmax=\count189
+\beamer@sectionmax=\count190
+\beamer@totalheads=\count191
+\beamer@headcounter=\count192
+\beamer@partstartpage=\count193
+\beamer@sectionstartpage=\count194
+\beamer@subsectionstartpage=\count195
+\beamer@animationtempa=\count196
+\beamer@animationtempb=\count197
+\beamer@xpos=\count198
+\beamer@ypos=\count199
+\beamer@ypos@offset=\count266
+\beamer@showpartnumber=\count267
+\beamer@currentsubsection=\count268
+\beamer@coveringdepth=\count269
+\beamer@sectionadjust=\count270
+\beamer@toclastsection=\count271
+\beamer@tocsectionnumber=\count272
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseop
 tions.sty
@@ -91,9 +92,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count270
-\Gm@cntv=\count271
-\c@Gm@tempcnt=\count272
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -151,11 +152,11 @@ util-latex.def
 rcs.code.tex
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.
 tex)
-Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys.code.tex
-Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgf
 keys.code.tex
@@ -178,38 +179,38 @@ keysfiltered.code.tex
 \pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count273
-\c@pgf@countb=\count274
-\c@pgf@countc=\count275
-\c@pgf@countd=\count276
+\c@pgf@counta=\count276
+\c@pgf@countb=\count277
+\c@pgf@countc=\count278
+\c@pgf@countd=\count279
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count277
+\pgf@sys@id@count=\count280
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/p
 gf.cfg
-File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count278
-\pgfsyssoftpath@bigbuffer@items=\count279
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count281
+\pgfsyssoftpath@bigbuffer@items=\count282
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.st
 y
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -231,7 +232,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcore.code.tex
-Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.
 code.tex
@@ -242,7 +243,7 @@ til.code.tex)
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathp
 arser.code.tex
 \pgfmath@dimen=\dimen176
-\pgfmath@count=\count280
+\pgfmath@count=\count283
 \pgfmath@box=\box57
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
@@ -268,13 +269,13 @@ unctions.misc.code.tex)
 unctions.integerarithmetics.code.tex)))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathf
 loat.code.tex
-\c@pgfmathroundto@lastzeros=\count281
+\c@pgfmathroundto@lastzeros=\count284
 ))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.c
 ode.tex)
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen177
 \pgf@picmaxx=\dimen178
 \pgf@picminy=\dimen179
@@ -292,90 +293,90 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen191
 \pgf@path@lasty=\dimen192
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count282
+\pgf@picture@serial@count=\count285
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen195
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen196
 \pgf@pt@y=\dimen197
 \pgf@pt@temp=\dimen198
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen199
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count283
-\pgf@shadingcount=\count284
+\pgf@sys@shading@range@num=\count286
+\pgf@shadingcount=\count287
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box61
 ))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/xxcol
 or.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count285
-\XC@countmixins=\count286
+\XC@nummixins=\count288
+\XC@countmixins=\count289
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.s
 ty
@@ -385,7 +386,7 @@ with kernel methods
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.s
 ty
-Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.s
 ty
@@ -431,17 +432,17 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen257
-\Hy@linkcounter=\count287
-\Hy@pagecounter=\count288
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-l
 angpatches.def
-File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
 nguages
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.s
@@ -452,9 +453,9 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 .sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count289
+\Hy@SavedSpaceFactor=\count292
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -469,7 +470,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count290
+\c@Hy@tempcnt=\count293
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -485,7 +486,7 @@ calc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count291
+\Fld@menulength=\count294
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -497,7 +498,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6100.
 Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
-\Hy@abspage=\count292
+\Hy@abspage=\count295
 
 Package hyperref Message: Stopped early.
 
@@ -506,7 +507,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.de
 f
-File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.
 sty
@@ -514,8 +515,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/reru
 nfilecheck.sty
@@ -560,36 +561,36 @@ sc.sty)
 oscreens.sty)
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseov
 erlay.sty
-\beamer@argscount=\count295
+\beamer@argscount=\count298
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count296
+\beamer@trivlistdepth=\count299
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseti
 tle.sty)
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasese
 ction.sty
-\c@lecture=\count297
-\c@part=\count298
-\c@section=\count299
-\c@subsection=\count300
-\c@subsubsection=\count301
+\c@lecture=\count300
+\c@part=\count301
+\c@section=\count302
+\c@subsection=\count303
+\c@subsubsection=\count304
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasefr
 ame.sty
 \beamer@framebox=\box62
 \beamer@frametitlebox=\box63
 \beamer@zoombox=\box64
-\beamer@zoomcount=\count302
-\beamer@zoomframecount=\count303
+\beamer@zoomcount=\count305
+\beamer@zoomframecount=\count306
 \beamer@frametextheight=\dimen261
-\c@subsectionslide=\count304
+\c@subsectionslide=\count307
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
 \beamer@envbody=\toks28
 \framewidth=\dimen262
-\c@framenumber=\count305
+\c@framenumber=\count308
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseve
 rbatim.sty
@@ -598,7 +599,7 @@ rbatim.sty
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasefr
 amesize.sty
 \beamer@splitbox=\box65
-\beamer@autobreakcount=\count306
+\beamer@autobreakcount=\count309
 \beamer@autobreaklastheight=\dimen263
 \beamer@frametitletoks=\toks29
 \beamer@framesubtitletoks=\toks30
@@ -642,8 +643,8 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks32
 )
 \beamer@bibiconwidth=\skip55
-\c@figure=\count307
-\c@table=\count308
+\c@figure=\count310
+\c@table=\count311
 \abovecaptionskip=\skip56
 \belowcaptionskip=\skip57
 )
@@ -672,13 +673,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 y
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count309
+\inf@bad=\count312
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count310
-\leftroot@=\count311
+\uproot@=\count313
+\leftroot@=\count314
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count312
-\DOTSCASE@=\count313
+\classnum@=\count315
+\DOTSCASE@=\count316
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -687,15 +688,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count314
-\c@MaxMatrixCols=\count315
+\macc@depth=\count317
+\c@MaxMatrixCols=\count318
 \dotsspace@=\muskip17
-\c@parentequation=\count316
-\dspbrk@lvl=\count317
+\c@parentequation=\count319
+\dspbrk@lvl=\count320
 \tag@help=\toks34
-\row@=\count318
-\column@=\count319
-\maxfields@=\count320
+\row@=\count321
+\column@=\count322
+\maxfields@=\count323
 \andhelp@=\toks35
 \eqnshift@=\dimen276
 \alignsep@=\dimen277
@@ -721,7 +722,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip63
 \dth@everypar=\toks43
 )
-\c@theorem=\count321
+\c@theorem=\count324
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseth
 emes.sty))
@@ -743,28 +744,28 @@ ges.sty
 Package: pgfpages 2011/01/05 ver 0.02
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count322
-\calc@Bcount=\count323
+\calc@Acount=\count325
+\calc@Bcount=\count326
 \calc@Adimen=\dimen284
 \calc@Bdimen=\dimen285
 \calc@Askip=\skip64
 \calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count324
+\calc@Ccount=\count327
 \calc@Cskip=\skip66
 )
-\pgf@logicalpages=\count325
-\pgf@firstshipout=\count326
-\pgf@lastshipout=\count327
-\pgf@currentshipout=\count328
-\pgf@cpn=\count329
-\pgf@shipoutnextto=\count330
+\pgf@logicalpages=\count328
+\pgf@firstshipout=\count329
+\pgf@lastshipout=\count330
+\pgf@currentshipout=\count331
+\pgf@cpn=\count332
+\pgf@shipoutnextto=\count333
 \pgfphysicalheight=\dimen286
 \pgfphysicalwidth=\dimen287
 \pgfpages@shipoutbox=\box72
 ) (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -809,7 +810,7 @@ Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 12.
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.st
 y
 Package: inputenc 2020/08/01 v1.3d Input encoding file
@@ -818,19 +819,35 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 ) (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerthemeW
+arsaw.sty
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerinnert
+hemerounded.sty)
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beameroutert
+hemeshadow.sty
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beameroutert
+hemesplit.sty))
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamercolort
+hemeorchid.sty)
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamercolort
+hemewhale.sty))
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamercolort
+hemewhale.sty)
+(c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerfontth
+emestructurebold.sty)
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype
 .sty
-Package: microtype 2021/02/25 v2.8b Micro-typographical refinements (RS)
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
 \MT@toks=\toks46
-\MT@count=\count331
-LaTeX Info: Redefining \textls on input line 788.
+\MT@count=\count334
+LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen288
-LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
-\MT@listname@count=\count332
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count335
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype
 -pdftex.def
-File: microtype-pdftex.def 2021/02/25 v2.8b Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
@@ -840,38 +857,38 @@ Package microtype Info: Loading configuration file microtype.cfg.
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype
 .cfg
-File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
 ))
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend
 -pdftex.def
-File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count333
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count336
 \l__pdf_internal_box=\box73
 )
 No file Presentation.aux.
 \openout1 = `Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -918,7 +935,7 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 96.
+Package hyperref Info: Link coloring OFF on input line 99.
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.st
 y
@@ -932,60 +949,60 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ttitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count334
+\c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 96.
-LaTeX Info: Redefining \pageref on input line 96.
-LaTeX Info: Redefining \nameref on input line 96.
+LaTeX Info: Redefining \ref on input line 99.
+LaTeX Info: Redefining \pageref on input line 99.
+LaTeX Info: Redefining \nameref on input line 99.
 \@outlinefile=\write5
 \openout5 = `Presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 96.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 99.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 96.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 99.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 96.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 99.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 96.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 99.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 96.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 96.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 96.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 96.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 96.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 96.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 96.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 96.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 96.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 96.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 99.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 96.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 99.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 96.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 96.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 96.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 96.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 96.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 99.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 96.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 99.
 
 (c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/translat
 or-basic-dictionary-English.dict
@@ -1011,14 +1028,14 @@ Dictionary: translator-numbers-dictionary, Language: English
 or-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 96.
+LaTeX Info: Redefining \microtypecontext on input line 99.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 96.
+LaTeX Info: Redefining \showhyphens on input line 99.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1031,19 +1048,18 @@ No file Presentation.nav.
 
 {c:/Users/ACER/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex
 .map}]
-No file Presentation.toc.
-! Missing } inserted.
+! Missing \endgroup inserted.
 <inserted text> 
-                }
-l.103 \end{frame}
+                \endgroup 
+l.104 \end{frame}
                   
 Here is how much of TeX's memory you used:
- 21706 strings out of 480971
- 405546 string characters out of 5905996
- 724472 words of memory out of 5000000
- 38473 multiletter control sequences out of 15000+600000
- 418948 words of font info for 44 fonts, out of 8000000 for 9000
+ 22196 strings out of 480714
+ 420810 string characters out of 5901596
+ 724098 words of memory out of 5000000
+ 39175 multiletter control sequences out of 15000+600000
+ 430841 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 112i,11n,116p,517b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,15n,108p,517b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
