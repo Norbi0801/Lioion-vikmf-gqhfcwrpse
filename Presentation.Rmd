@@ -2,7 +2,7 @@
 title: "Praca projektowa nr 3"
 author: 
 - Norbert Olkowski
-- Jakub Muszynski
+- Jakub Muszyński
 - Dawid Poławski
 date: "31 05 2021"
 output: beamer_presentation
@@ -10,14 +10,8 @@ output: beamer_presentation
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE, warning = FALSE, message = FALSE)
-
 source("Main.R")
-library(readr)
 ```
-
-\begin{frame}
-\tableofcontents
-\end{frame}
 
 ## Zapytanie 1 ##
 Jak zmieniała się popularność gier (tagów) na przestrzeni danej jednostki czasu (miesiąc)?

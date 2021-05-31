@@ -1,4 +1,5 @@
-#TODO: Zaimportowanie potrzebnych pakietów
-library("XML")
-library("methods")
-library("dplyr")
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(stringi)
+
