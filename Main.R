@@ -1,7 +1,7 @@
 #######################################
 
-source("LoadData.R")
 source("Packages.R")
+source("LoadData.R")
 
 #######################################
 
@@ -16,12 +16,14 @@ tags_trends <- function(Posts){
   postsDT_arqade <- postsDT_arqade[ ,Tags := NULL]
   ans <- merge(postsDT_arqade, s1, by = "Id")[,
                                               .(Tags_number = .N),
-                                              by = c("CreationDate", "Tags")][order(CreationDate, decreasing = TRUE)][CreationDate>="2012-02"]
+                                              by = c("CreationDate", "Tags")][order(CreationDate, decreasing = TRUE)][CreationDate>="2017-02"]
   ans <- split(ans, by=c("CreationDate"))
   ans <- lapply(ans, function(x){
-    x[order(Tags_number, decreasing = TRUE)][1:5]
+    x[order(Tags_number, decreasing = TRUE)][1:3]
   })
-  split(do.call(rbind, ans), by = c("Tags"))
+  #split(do.call(rbind, ans), by = c("Tags"))
+  do.call(rbind, ans)
+  
 }
 
 #######################################
