@@ -13,13 +13,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE, warning = FALSE, message = FALS
 
 source("Main.R")
 library(readr)
-library(sqldf)
-library(dplyr)
-library(data.table)
-library(tibble)
-
 ```
 
+\begin{frame}
+\tableofcontents
+\end{frame}
+
 ## Zapytanie 1 ##
+Jak zmieniała się popularność gier (tagów) na przestrzeni danej jednostki czasu (miesiąc)?
 
 

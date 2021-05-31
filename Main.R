@@ -1,5 +1,5 @@
 #######################################
-source("LoadData.R")
+#source("LoadData.R")
 #source("Packages.R")
 
 library(data.table)
@@ -11,7 +11,7 @@ library(stringi)
 #TODO: Projekt
 #TODO: Zaimportowanie danych
 
-Posts_xml <- read.csv("C:\\Users/User/Documents/GitHub/NOETSI/arqade.stackexchange/Posts.xml.csv")
+Posts_xml <- read.csv("arqade.stackexchange/Posts.xml.csv")
 
 zapytanie_1 <- function(Posts_xml){
   postsDT_arqade <- data.table(Posts_xml)
@@ -50,7 +50,7 @@ zapytanie_1 <- function(Posts_xml){
   #            by = c("CreationDate")]
   #TODO Czy skupiamy si? na wyselekcjonowaniu miesi?cy
 }
-x <- zapytanie_1(arqade.Posts)
+x <- zapytanie_1(Posts_xml)
 
 
 plot(seq(1,length(x$CreationDate)), x$Tags_number, xlabel = x$CreationDate)
@@ -118,8 +118,9 @@ Answers_after <- numbers(Answers_after)
 
 ###################
 
-Posts_xml <- read.csv("C:\\Users\\User\\Documents\\GitHub\\Lioion-vikmf-gqhfcwrpse\\chess.stackexchange\\Posts.xml.csv")
+Posts_xml <- read.csv("arqade.stackexchange\\Posts.xml.csv")
 x <- data.table(Posts_xml)
 trends <- function(x){
   x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount+Score*16, Score*16))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
 }
+
