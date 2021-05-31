@@ -117,3 +117,9 @@ Answers_before <- numbers(Answers_before)
 Answers_after <- numbers(Answers_after)
 
 ###################
+
+Posts_xml <- read.csv("C:\\Users\\User\\Documents\\GitHub\\Lioion-vikmf-gqhfcwrpse\\chess.stackexchange\\Posts.xml.csv")
+x <- data.table(Posts_xml)
+trends <- function(x){
+  x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount+Score*16, Score*16))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
+}
