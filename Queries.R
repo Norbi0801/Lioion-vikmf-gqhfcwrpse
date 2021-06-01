@@ -88,11 +88,13 @@ queens_gambit1 <- function(PostsDT){
   Answers_q <- numbers(Answers_q)
   colnames(Answers_q)[2] <- "Number of Answers"
   ans <- merge(Questions_q, Answers_q, by = "CreationDate")
-  data.table(Data = ans[[1]],Q = ans[[2]],A = ans[[3]], Color = ifelse(ans[[1]]<"2020-11",1,2))
+  V <- c(ans[[2]], ans[[3]])
+  data.table(Data = ans[[1]],V = V, Color = ifelse(ans[[1]]<"2020-10",1,2), G = ifelse(V == ans[[2]],1,2))
 }
 
 #######################################
 
-trends <- function(x){
-  x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount/ifelse(Score==0,Score+1,Score), Score))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
+trends <- function(x, c){
+  ans <- x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount/ifelse(Score==0,Score+1,Score), Score))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
+  data.table(Date = ans[,Date], Points = ans[,Points], Group = c)
 }
