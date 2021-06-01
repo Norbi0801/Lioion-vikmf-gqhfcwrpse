@@ -75,9 +75,9 @@ queens_gambit <- function(PostsDT){
 
 queens_gambit1 <- function(PostsDT){
   Questions <- PostsDT[PostTypeId == 1, ]
-  Questions_q <- Questions["2020-06-01" <= CreationDate & CreationDate <= "2021-03-01", ]
+  Questions_q <- Questions["2020-07-01" <= CreationDate & CreationDate <= "2021-03-01", ]
   Answers <- PostsDT[PostTypeId == 2, ]
-  Answers_q <- Answers["2020-06-01" <= CreationDate & CreationDate <= "2021-03-01", ]
+  Answers_q <- Answers["2020-07-01" <= CreationDate & CreationDate <= "2021-03-01", ]
 
   
   numbers <- function(DT){
@@ -88,7 +88,7 @@ queens_gambit1 <- function(PostsDT){
   Answers_q <- numbers(Answers_q)
   colnames(Answers_q)[2] <- "Number of Answers"
   ans <- merge(Questions_q, Answers_q, by = "CreationDate")
-  ans
+  data.table(Data = ans[[1]],Q = ans[[2]],A = ans[[3]], Color = ifelse(ans[[1]]<"2020-11",1,2))
 }
 
 #######################################

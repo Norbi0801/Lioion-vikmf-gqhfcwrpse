@@ -42,17 +42,17 @@ w_arqade <- tags_users_comparision(arqade.Posts, arqade.Users)
 w_chess <- tags_users_comparision(chess.Posts, chess.Users)
 w_boarding <- tags_users_comparision(boarding.Posts, boarding.Users)
  
-draw <- function(w, name){
-  ggplot(data = w, aes(x =         reorder(w[,get(names(w)[1])],w[,get(names(w)[4])]),y =   w[,get(names(w)[4])])) + 
-geom_col(size = 4) +
+draw <- function(w, name, c1, c2){
+  ggplot(data = w, aes(x =         reorder(w[,get(names(w)[1])],w[,get(names(w)[4])]),y = w[,get(names(w)[4])])) + 
+geom_col(fill = c1, color = c2,size = 4) +
 coord_flip() +
 labs(x = "",  y = "") +
 theme(text = element_text(size = 20)) 
 ggsave(paste(name,".png", sep=""), height = 9, width = 16)
 }
-draw(w_arqade, "Arqade")
-draw(w_chess, "Chess")
-draw(w_boarding, "Boarding")
+draw(w_arqade, "Arqade", "#374A74", "#6A7DA7")
+draw(w_chess, "Chess", "#423127", "#75645A")
+draw(w_boarding, "Boarding", "#fdebcd", "#fffdef")
 ```
 ![](Arqade.png)
 
@@ -67,12 +67,27 @@ draw(w_boarding, "Boarding")
 ##  Zapytanie 3  ##
 **Jak serial *Gambit Królowej*^[Serial Netflix'a (2020), reż. Scott Frank, Allan Scott] wpłynął na popularyzację szachów?**
 ```{r tree, include=FALSE}
-wynik <- queens_gambit(chess.Posts)
-ggplot(data = wynik[[1]], aes(x = wynik[[1]][,get(names(wynik[[1]])[1])],y = wynik[[1]][,get(names(wynik[[1]])[2])])) + 
-geom_col(size = 4) +
-labs(x = "",  y = "Liczba wystąpień tagu", color = "Nazwy tagów") +
-theme(text = element_text(size = 20)) 
+wynik <- queens_gambit1(chess.Posts)
+ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[2])], color = wynik[,get(names(wynik)[4])])) + 
+geom_col(fill = "#17FD22", size = 4, show.legend = FALSE) +
+labs(x = "",  y = "Liczba pytań", color = "Nazwy tagów") +
+theme(text = element_text(size = 20)) +
+scale_fill_brewer(palette = "Blues")+
 
 ggsave("queens_gambit.png", height = 9, width = 16)
 ```
 ![](queens_gambit.png)
+
+##  Zapytanie 3  ##
+**Jak serial *Gambit Królowej*^[Serial Netflix'a (2020), reż. Scott Frank, Allan Scott] wpłynął na popularyzację szachów?**
+```{r tree1, include=FALSE}
+ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[3])], color = wynik[,get(names(wynik)[4])])) + 
+geom_col(fill = "#3BA2C8", size = 4, show.legend = FALSE) +
+labs(x = "",  y = "Liczba odpowiedzi", color = "Nazwy tagów") +
+theme(text = element_text(size = 20)) +
+scale_fill_brewer(palette = "Blues")+
+
+ggsave("queens_gambit1.png", height = 9, width = 16)
+```
+![](queens_gambit1.png)
+
