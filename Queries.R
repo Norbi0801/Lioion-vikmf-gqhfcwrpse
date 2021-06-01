@@ -75,9 +75,9 @@ queens_gambit <- function(PostsDT){
 
 queens_gambit1 <- function(PostsDT){
   Questions <- PostsDT[PostTypeId == 1, ]
-  Questions_q <- Questions["2020-06-01" <= CreationDate & CreationDate <= "2021-03-01", ]
+  Questions_q <- Questions["2020-07-01" <= CreationDate & CreationDate <= "2021-03-01", ]
   Answers <- PostsDT[PostTypeId == 2, ]
-  Answers_q <- Answers["2020-06-01" <= CreationDate & CreationDate <= "2021-03-01", ]
+  Answers_q <- Answers["2020-07-01" <= CreationDate & CreationDate <= "2021-03-01", ]
 
   
   numbers <- function(DT){
@@ -88,11 +88,13 @@ queens_gambit1 <- function(PostsDT){
   Answers_q <- numbers(Answers_q)
   colnames(Answers_q)[2] <- "Number of Answers"
   ans <- merge(Questions_q, Answers_q, by = "CreationDate")
-  ans
+  V <- c(ans[[2]], ans[[3]])
+  data.table(Data = ans[[1]],V = V, Color = ifelse(ans[[1]]<"2020-10",1,2), G = ifelse(V == ans[[2]],1,2))
 }
 
 #######################################
 
-trends <- function(x){
-  x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount/ifelse(Score==0,Score+1,Score), Score))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
+trends <- function(x, c){
+  ans <- x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount/ifelse(Score==0,Score+1,Score), Score))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
+  data.table(Date = ans[,Date], Points = ans[,Points], Group = c)
 }
