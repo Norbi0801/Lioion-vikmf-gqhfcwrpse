@@ -34,65 +34,56 @@ source("Main.R")
 
 ##  Wstęp  ##
 
- 	W realizacji projektu wykorzystaliśmy dane zebrane z serwisów:
-	  -
-	  -
-	  -
-	Na ich podstawie przeprowadziliśmy analizę danych, mającą na celu odpowiedzenie na poniższe zapytania.
+W realizacji projektu wykorzystaliśmy dane zebrane z serwisów:
+  
+  * [*Arqade*](https://gaming.stackexchange.com/)
+  * [*Chess*](https://chess.stackexchange.com/)
+  * [*Board & Card Games*](https://boardgames.stackexchange.com/)
+
+Na ich podstawie przeprowadziliśmy analizę danych, mającą na celu odpowiedzenie na poniższe pytania. 
 	
 ##  Zapytania  ##
 
 **Zapytania**
 
  1. [Jak zmieniała się popularność gier na przestrzeni miesięcy?](#zapytanie-1)
- 2. [Wybór 15 najaktywniejszych użytkowników forum *Arqade*](#zapytanie-2)
+ 2. [Wybór 15 najaktywniejszych użytkowników forum *Arqade*.](#zapytanie-2)
  3. [Jak serial *Gambit Królowej* wpłynął na popularyzację szachów?](#zapytanie-3)
- 4. [Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games*](#zapytanie-4)  
+ 4. [Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games*.](#zapytanie-4)  
 
 ##  Kwestie techniczne  ##
 
-  Wykorzystane pakiety:
+  **Wykorzystane pakiety:**
   
-    - data.table
-	  - dplyr
-	  - stringi
-	  - tidyr
-	  - ggplot2
-	  - gganimate
+  + data.table
+  + dplyr
+  + stringi
+  + tidyr
+  + ggplot2
+  + gganimate
 	
-  Sposób importu danych
-	
-	  - konwersja XML -> CSV przy pomocy funkcji udostępnionej na stronie prof. Gągolewskiego(https://www.gagolewski.com/)
+  **Sposób importu danych**
   
-  Wykorzystane struktury danych
+  + konwersja XML -> CSV przy pomocy funkcji udostępnionej\ na [stronie prof. Gągolewskiego](https://www.gagolewski.com/)
+  
+  **Wykorzystane struktury danych**
 
 ##  Zapytanie 1  ##
 **Jak zmieniała się popularność gier na przestrzeni miesięcy?**
 
 ```{r one, include=FALSE }
 wynik <- tags_trends(arqade.Posts)
-pY1 <- ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[3])], color = wynik[,get(names(wynik)[2])])) + 
-geom_point(size = 5) +
+ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[3])], color = wynik[,get(names(wynik)[2])])) + 
+geom_point(size = 4) +
 theme(axis.text.x = element_text(angle = 90, vjust = 0.8, hjust = 1.2), ) +
 labs(x = "",  y = "Liczba wystąpień tagu", color = "Nazwy tagów") +
-theme(text = element_text(size = 20))+
-transition_time(seq(length(CreationDate),1)) +
-shadow_mark(alpha=0.99, size = 4)
-
-anim <- animate(pY1,nframes=10, width=1000, height=800, renderer = gifski_renderer(), fps=1)
-anim_save("1.gif")
+theme(text = element_text(size = 20)) 
+ggsave("tags_trends.png", height = 9, width = 16)
 ```
-```{r gif, include=FALSE }
-if (knitr:::is_latex_output()) {
-  knitr::asis_output('\\url{1.gif}')
-} else {
-  knitr::include_graphics("1.gif")
-}
-```
-
+![](tags_trends.png)
 
 ##  Zapytanie 2  ##
-**Wybór 15 najaktywniejszych użytkowników forum Arqade**
+**Wybór 15 najaktywniejszych użytkowników forum _Arqade_**
 
 ```{r two, include=FALSE}
 w_arqade <- tags_users_comparision(arqade.Posts, arqade.Users)
@@ -103,8 +94,8 @@ draw <- function(w, name, c1, c2){
   ggplot(data = w, aes(x =         reorder(w[,get(names(w)[1])],w[,get(names(w)[4])]),y = w[,get(names(w)[4])])) + 
 geom_col(fill = c1, color = c2,size = 4) +
 coord_flip() +
-labs(x = "",  y = "") +
-theme(text = element_text(size = sizeR)) 
+labs(x = "Nazwa użytkownika",  y = "Liczba użytych tagów") +
+theme(text = element_text(size = sizeR))+
 ggsave(paste(name,".png", sep=""), height = 9, width = 16)
 }
 draw(w_arqade, "Arqade", "#374A74", "#6A7DA7")
@@ -114,11 +105,11 @@ draw(w_boarding, "Boarding", "#fdebcd", "#fffdef")
 ![](Arqade.png)
 
 ##  Zapytanie 2  ##
-**Wybór 15 najaktywniejszych użytkowników forum Chess**
+**Wybór 15 najaktywniejszych użytkowników forum _Chess_**
 ![](Chess.png)
 
 ##  Zapytanie 2  ##
-**Wybór 15 najaktywniejszych użytkowników forum Board & Card Games**
+**Wybór 15 najaktywniejszych użytkowników forum _Board & Card Games_**
 ![](Boarding.png)
 
 ##  Zapytanie 3  ##
@@ -159,9 +150,9 @@ $$
 $$
 gdzie: 
 
-* $w_i$ to i-ty wiersz ramki Posts z serwisu y;
+* $w_i$ to i-ty wiersz ramki $Posts$ z serwisu $y$;
 * $i\in[n]$; 
-* $n$ - liczba wierszy ramki Posts z serwisu y.
+* $n$ - liczba wierszy ramki $Posts$ z serwisu $y$.
 
 
 ##  Zapytanie 4  ##
@@ -181,7 +172,20 @@ ggsave("trends.png", height = 9, width = 16)
 
 ##  Podsumowanie  ##
 
+  1. Po przeanalizowaniu danych wnioskujemy, że największe zainteresowanie na przestrzeni czterech ostatnich lat osiągnęła gra *Minecraft*. Ponadto wzrosło zainteresowanie grą *Fortnite*.
+  2. Liczba tagów, którą użył *Ash* jest około 3,5 raza większa niż pozostali najaktywniesi użytkownicy w wybranych forach.
+    
+     * najaktywniejszym użytkownikiem forum *Arqade* był *Ash*
+     * najaktywniejszym użytkownikiem forum *Chess* był *Rewan Demontay*
+     * najaktywniejszym użytkownikiem forum *Board & Card Games* był *Cordon Gustafson*
+  3. Serial *Gambit Królowej* wpłynął pozytywnie na wzrost zapytań na forum oraz pozytywnie wzrost odpowiedzi, po premierze filmu na *Netflixie*.
+  4. Na podstawie zastosowanego wskaźnika do porównania popularności forów wnioskujemy, że bezapelacyjnym zwycięzcą jest forum *Arquade*.
+
+##  Dziękujemy za uwagę  ##
+
+>As for elegance, R is refined, tasteful, and beautiful. When I grow
+>up, I want to marry R.
+- **Andy Bunn**
 
 
-##  Chwila na mema  ##
-![](MicrosoftTeams-image.png)
+
