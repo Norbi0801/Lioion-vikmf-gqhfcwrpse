@@ -1,16 +1,16 @@
 ---
 title: "Praca projektowa nr 3"
-subtitle: "Przetwarzanie danych ustrukturyzowanych"
-author: 
- - Norbert Olkowski
- - Dawid Poławski
- - Jakub Muszyński
-institute: pretendenci do bycia pretendentami do bycia zajebistymi matematykami, Wydział Matematyki i Nauk Informacyjnych, Politechnika Warszawska i ÓWu
+author:
+- Norbert Olkowski
+- Dawid Poławski
+- Jakub Muszyński
 date: "31 maja 2021"
 output: beamer_presentation
-theme: "Warsaw"
-colortheme: "Whale"
-fonttheme: "structurebold"
+subtitle: Przetwarzanie danych ustrukturyzowanych
+institute: Wydział Matematyki i Nauk Informacyjnych, Politechnika Warszawska
+theme: Warsaw
+colortheme: Whale
+fonttheme: structurebold
 ---
 
 ```{r setup, include=FALSE}
@@ -23,6 +23,25 @@ source("Main.R")
 
 ##  Spis treści  ##
 
+ 1. [Wstęp](#wstęp)
+ 2. [Zapytania](#zapytania)
+ 3. [Kwestie techniczne](#kwestie-techniczne)
+ 4. [Zapytanie 1](#zapytanie-1)
+ 5. [Zapytanie 2](#zapytanie-2)
+ 6. [Zapytanie 3](#zapytanie-3)
+ 7. [Zapytanie 4](#zapytanie-4)
+ 8. [Podsumowanie](#podsumowanie)
+
+##  Wstęp  ##
+
+ 	W realizacji projektu wykorzystaliśmy dane zebrane z serwisów:
+	  -
+	  -
+	  -
+	Na ich podstawie przeprowadziliśmy analizę danych, mającą na celu odpowiedzenie na poniższe zapytania.
+	
+##  Zapytania  ##
+
 **Zapytania**
 
  1. [Jak zmieniała się popularność gier na przestrzeni miesięcy?](#zapytanie-1)
@@ -30,25 +49,47 @@ source("Main.R")
  3. [Jak serial *Gambit Królowej* wpłynął na popularyzację szachów?](#zapytanie-3)
  4. [Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games*](#zapytanie-4)  
 
-##  Wstęp  ##
+##  Kwestie techniczne  ##
 
-
+  Wykorzystane pakiety:
+  
+    - data.table
+	  - dplyr
+	  - stringi
+	  - tidyr
+	  - ggplot2
+	  - gganimate
+	
+  Sposób importu danych
+	
+	  - konwersja XML -> CSV przy pomocy funkcji udostępnionej na stronie prof. Gągolewskiego(https://www.gagolewski.com/)
+  
+  Wykorzystane struktury danych
 
 ##  Zapytanie 1  ##
 **Jak zmieniała się popularność gier na przestrzeni miesięcy?**
 
-```{r one, include=FALSE}
+```{r one, include=FALSE }
 wynik <- tags_trends(arqade.Posts)
-ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[3])], color = wynik[,get(names(wynik)[2])])) + 
-geom_point(size = 4) +
+pY1 <- ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[3])], color = wynik[,get(names(wynik)[2])])) + 
+geom_point(size = 5) +
 theme(axis.text.x = element_text(angle = 90, vjust = 0.8, hjust = 1.2), ) +
 labs(x = "",  y = "Liczba wystąpień tagu", color = "Nazwy tagów") +
-theme(text = element_text(size = 20)) 
+theme(text = element_text(size = 20))+
+transition_time(seq(length(CreationDate),1)) +
+shadow_mark(alpha=0.99, size = 4)
 
-
-ggsave("tags_trends.png", height = 9, width = 16)
+anim <- animate(pY1,nframes=10, width=1000, height=800, renderer = gifski_renderer(), fps=1)
+anim_save("1.gif")
 ```
-![](tags_trends.png)
+```{r gif, include=FALSE }
+if (knitr:::is_latex_output()) {
+  knitr::asis_output('\\url{1.gif}')
+} else {
+  knitr::include_graphics("1.gif")
+}
+```
+
 
 ##  Zapytanie 2  ##
 **Wybór 15 najaktywniejszych użytkowników forum Arqade**
@@ -97,7 +138,7 @@ ggsave("queens_gambit.png", height = 9, width = 16)
 ![](queens_gambit.png)
 
 ##  Zapytanie 4  ##
-**Nasz zajebisty wzór <3**
+**Wzory wykorzystywane do obliczenia wartości trendu**
 $$
   \gamma(x) = \left\{ \begin{array}{ll}
 \frac{ViewCount}{Score} & \textrm{jeśli $Score \neq 0$}\\
@@ -138,4 +179,9 @@ ggsave("trends.png", height = 9, width = 16)
 ```
 ![](trends.png)
 
-^^^^^^^^^NNRŁP
+##  Podsumowanie  ##
+
+
+
+##  Chwila na mema  ##
+![](MicrosoftTeams-image.png)
