@@ -17,6 +17,7 @@ tags_trends <- function(Posts){
   #split(do.call(rbind, ans), by = c("Tags"))
   do.call(rbind, ans)
   
+  
 }
 
 #######################################
@@ -98,3 +99,10 @@ trends <- function(x, c){
   ans <- x[, .(Date = substr(CreationDate,1,7), Points = ifelse(PostTypeId == 1, ViewCount/ifelse(Score==0,Score+1,Score), Score))][, .(Points = sum(Points)), by = Date][order(Date, decreasing = TRUE)][1:12]
   data.table(Date = ans[,Date], Points = ans[,Points], Group = c)
 }
+
+
+zapis <- function(DT, nazwa){
+  write.csv(DT, paste("Documents/GitHub/Lioion-vikmf-gqhfcwrpse//" ,nazwa, '.csv', sep = ""))
+}
+
+
