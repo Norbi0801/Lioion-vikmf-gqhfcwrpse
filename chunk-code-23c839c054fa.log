@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2021.2.24)  2 JUN 2021 12:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**C:/Users/User/AppData/Local/Temp/Rtmp65uckL/chunk-code-23c839c054fa.txt
+(c:/Users/User/AppData/Local/Temp/Rtmp65uckL/chunk-code-23c839c054fa.txt
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 m
+     agick convert -coalesce 1.gif something.png
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1 m
+     agick convert -coalesce 1.gif something.png
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 480972
+ 760 string characters out of 5906022
+ 278608 words of memory out of 5000000
+ 17337 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 13i,0n,15p,147b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

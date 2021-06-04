@@ -173,12 +173,12 @@ ggsave("trends.png", height = 9, width = 16)
 ##  Podsumowanie  ##
 
   1. Po przeanalizowaniu danych wnioskujemy, że największe zainteresowanie na przestrzeni czterech ostatnich lat osiągnęła gra *Minecraft*. Ponadto wzrosło zainteresowanie grą *Fortnite*.
-  2. Liczba tagów, którą użył *Ash* jest około 3,5 raza większa niż pozostali najaktywniesi użytkownicy w wybranych forach.
+  2. Liczba tagów, którą użył *Ash* jest około 3,5 raza większa niż pozostali najaktywniejsi użytkownicy w wybranych forach.
     
      * najaktywniejszym użytkownikiem forum *Arqade* był *Ash*
      * najaktywniejszym użytkownikiem forum *Chess* był *Rewan Demontay*
      * najaktywniejszym użytkownikiem forum *Board & Card Games* był *Cordon Gustafson*
-  3. Serial *Gambit Królowej* wpłynął pozytywnie na wzrost zapytań na forum oraz pozytywnie wzrost odpowiedzi, po premierze filmu na *Netflixie*.
+  3. Serial *Gambit Królowej* wpłynął pozytywnie na wzrost zapytań na forum oraz pozytywnie na wzrost odpowiedzi, po premierze filmu na *Netflixie*.
   4. Na podstawie zastosowanego wskaźnika do porównania popularności forów wnioskujemy, że bezapelacyjnym zwycięzcą jest forum *Arquade*.
 
 ##  Dziękujemy za uwagę  ##
