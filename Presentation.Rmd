@@ -47,7 +47,7 @@ Na ich podstawie przeprowadziliśmy analizę danych, mającą na celu odpowiedze
 **Zapytania**
 
  1. [Jak zmieniała się popularność gier na przestrzeni miesięcy?](#zapytanie-1)
- 2. [Wybór 15 najaktywniejszych użytkowników forum *Arqade*.](#zapytanie-2)
+ 2. [Wybór 15 najaktywniejszych użytkowników forum *Arqade*, *Chess*, *Board & Card Games*.](#zapytanie-2)
  3. [Jak serial *Gambit Królowej* wpłynął na popularyzację szachów?](#zapytanie-3)
  4. [Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games*.](#zapytanie-4)  
 
@@ -65,12 +65,12 @@ Na ich podstawie przeprowadziliśmy analizę danych, mającą na celu odpowiedze
   **Sposób importu danych**
   
   + konwersja XML -> CSV przy pomocy funkcji udostępnionej\ na [stronie prof. Gągolewskiego](https://www.gagolewski.com/)
-  
-  **Wykorzystane struktury danych**
 
 ##  Zapytanie 1  ##
 **Jak zmieniała się popularność gier na przestrzeni miesięcy?**
 
+##  Zapytanie 1  ##
+**Jak zmieniała się popularność gier na przestrzeni miesięcy?**
 ```{r one, include=FALSE }
 wynik <- tags_trends(arqade.Posts)
 ggplot(data = wynik, aes(x = wynik[,get(names(wynik)[1])],y = wynik[,get(names(wynik)[3])], color = wynik[,get(names(wynik)[2])])) + 
@@ -83,8 +83,10 @@ ggsave("tags_trends.png", height = 9, width = 16)
 ![](tags_trends.png)
 
 ##  Zapytanie 2  ##
-**Wybór 15 najaktywniejszych użytkowników forum _Arqade_**
+**Wybór 15 najaktywniejszych użytkowników forum _Arqade_, _Chess_, _Board & Card Games_.**
 
+##  Zapytanie 2  ##
+**Wybór 15 najaktywniejszych użytkowników forum _Arqade_.**
 ```{r two, include=FALSE}
 w_arqade <- tags_users_comparision(arqade.Posts, arqade.Users)
 w_chess <- tags_users_comparision(chess.Posts, chess.Users)
@@ -105,12 +107,15 @@ draw(w_boarding, "Boarding", "#fdebcd", "#fffdef")
 ![](Arqade.png)
 
 ##  Zapytanie 2  ##
-**Wybór 15 najaktywniejszych użytkowników forum _Chess_**
+**Wybór 15 najaktywniejszych użytkowników forum _Chess_.**
 ![](Chess.png)
 
 ##  Zapytanie 2  ##
-**Wybór 15 najaktywniejszych użytkowników forum _Board & Card Games_**
+**Wybór 15 najaktywniejszych użytkowników forum _Board & Card Games_.**
 ![](Boarding.png)
+
+##  Zapytanie 3  ##
+**Jak serial *Gambit Królowej* wpłynął na popularyzację szachów?**
 
 ##  Zapytanie 3  ##
 **Jak serial *Gambit Królowej*^[Serial Netflix'a (2020), reż. Scott Frank, Allan Scott] wpłynął na popularyzację szachów?**
@@ -129,7 +134,8 @@ ggsave("queens_gambit.png", height = 9, width = 16)
 ![](queens_gambit.png)
 
 ##  Zapytanie 4  ##
-**Wzory wykorzystywane do obliczenia wartości trendu**
+**Wzory wykorzystywane do obliczenia wartości trendu.**
+
 $$
   \gamma(x) = \left\{ \begin{array}{ll}
 \frac{ViewCount}{Score} & \textrm{jeśli $Score \neq 0$}\\
@@ -156,9 +162,12 @@ gdzie:
 
 
 ##  Zapytanie 4  ##
-**Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games* **
+**Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games*. **
+
+##  Zapytanie 4  ##
+**Porównanie popularności wybranych serwisów: *Arqade*, *Chess*, *Board & Card Games*. **
 ```{r four, include=FALSE}
-wynik <- do.call(rbind,list(trends(chess.Posts,"chess"), trends(arqade.Posts,"arqade"), trends(boarding.Posts,"boarding")))
+wynik <- do.call(rbind,list(trends(chess.Posts,"Chess"), trends(arqade.Posts,"Arqade"), trends(boarding.Posts,"Board & Card Games")))
 ggplot(wynik, aes(x=Date, y=Points, colour=Group, group=Group))+
 geom_line(size = 2)+
 geom_point(size = 3)+
