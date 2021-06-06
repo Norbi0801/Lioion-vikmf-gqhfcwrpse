@@ -188,7 +188,7 @@ ggsave("trends.png", height = 9, width = 16)
      * najaktywniejszym użytkownikiem forum *Chess* był *Rewan Demontay*
      * najaktywniejszym użytkownikiem forum *Board & Card Games* był *Cordon Gustafson*
   3. Serial *Gambit Królowej* wpłynął pozytywnie na wzrost zapytań na forum oraz pozytywnie na wzrost odpowiedzi, po premierze filmu na *Netflixie*.
-  4. Na podstawie zastosowanego wskaźnika do porównania popularności forów wnioskujemy, że bezapelacyjnym zwycięzcą jest forum *Arquade*.
+  4. Na podstawie zastosowanego wskaźnika do porównania popularności forów wnioskujemy, że bezapelacyjnym zwycięzcą jest forum *Arqade*.
 
 ##  Dziękujemy za uwagę  ##
 
